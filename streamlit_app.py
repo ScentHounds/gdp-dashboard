@@ -145,7 +145,7 @@ for i, City in enumerate(selected_City):
 
         st.metric(
             label=f'{country} ASP',
-            value=f'{last_gdp:,.0f}B',
+            value=f'{last_ASP:,.0f}B',
             delta=growth,
             delta_color=delta_color
         )
